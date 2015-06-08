@@ -15,6 +15,34 @@ namespace WindowsFormsApplication1
         public Form2()
         {
             InitializeComponent();
+            BarCodeTextBox.Text = "";
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BarCodeTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SubmitButton_Click(object sender, EventArgs e)
+        {
+            SubmitButton.DialogResult = DialogResult.OK;
+        }
+
+        private void CancelButton_Click(object sender, EventArgs e)
+        {
+            CancelButton.DialogResult = DialogResult.Cancel;
         }
     }
+
 }
